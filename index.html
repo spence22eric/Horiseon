@@ -8,9 +8,11 @@
 </head>
 
 <body>
-    <div class="header">
+    <!-- added <header> semantic element -->
+    <header class="header">
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
+        <!-- added <nav> semantic element -->
+        <nav>
             <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -22,11 +24,12 @@
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
-        </div>
-    </div>
+        </nav>
+    </header>
     <div class="hero"></div>
     <div class="content">
-        <div class="search-engine-optimization">
+        <!-- adjusted class selector to ID for nav bar link -->
+        <div id="search-engine-optimization" class="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
