@@ -23,7 +23,7 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
-/* changed the below entries from div to nav to reflect semantics change in the index file */
+/* changed the below from div to nav to reflect semantics change in the index file */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -146,7 +146,7 @@ section with the above */
     max-width: 150px; 
 }*/
 
-.search-engine-optimization {
+.search-engine-optimization div {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -155,7 +155,9 @@ section with the above */
     color: #ffffff;
 }
 
-.online-reputation-management {
+/* removed below classes since styles are being applied by the above entry */
+
+/* .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -171,7 +173,7 @@ section with the above */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
+} */
 
 .search-engine-optimization img {
     max-height: 200px;
