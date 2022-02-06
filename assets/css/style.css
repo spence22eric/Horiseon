@@ -145,6 +145,7 @@ section with the above */
     margin: 10px auto;
     max-width: 150px; 
 }*/
+
 /* changed name to be more generic to the section (was search-engine-optimization) */
 .overview div {
     margin-bottom: 20px;
@@ -188,7 +189,14 @@ section with the above */
     max-height: 200px;
 } */
 
+/* changed name to be more generic to the section (was search-engine-optimization) */
 .overview h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* removed below classes since styles are being applied by the above entry */
+
+/* .overview h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -196,12 +204,7 @@ section with the above */
 .overview h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
-
-.overview h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+} */
 
 .footer {
     padding: 30px;
