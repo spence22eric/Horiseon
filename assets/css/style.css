@@ -87,8 +87,8 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
-.benefit-lead div {
+/* changed name to be more generic (was benefit-lead) */
+.benefit-list div { 
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -105,12 +105,16 @@ section with the above */
     color: #ffffff;
 } */
 
-.benefit-lead h3 {
+/* changed name to be more generic (was benefit-lead) */
+.benefit-list h3 { 
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
+/* Removed below classes since the selectors are already applied
+ with the .benefit-lead h3 entry*/
+
+/* .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -118,15 +122,19 @@ section with the above */
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
-}
+} */
 
-.benefit-lead img {
+/* changed name to be more generic (was benefit-lead) */
+.benefit-list img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
+/* Removed below classes since the selectors are already applied
+ with the .benefit-lead img entry */
+
+/* .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -135,8 +143,8 @@ section with the above */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
-    max-width: 150px;
-}
+    max-width: 150px; 
+}*/
 
 .search-engine-optimization {
     margin-bottom: 20px;
