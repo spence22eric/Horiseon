@@ -145,8 +145,8 @@ section with the above */
     margin: 10px auto;
     max-width: 150px; 
 }*/
-
-.search-engine-optimization div {
+/* changed name to be more generic to the section (was search-engine-optimization) */
+.overview div {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -175,29 +175,30 @@ section with the above */
     color: #ffffff;
 } */
 
-.search-engine-optimization img {
+/* changed name to be more generic to the section (was search-engine-optimization) */
+.overview img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
+/* .online-reputation-management img {
     max-height: 200px;
 }
 
 .social-media-marketing img {
     max-height: 200px;
-}
+} */
 
-.search-engine-optimization h2 {
+.overview h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
+.overview h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.social-media-marketing h2 {
+.overview h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
